@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dkorta-costgov_jd244"
+name = "dkorta-retrieval_funnel_length_profile"
 version = "0.1.0"
 description = "按段落统计成本与容量治理专家·检索召回的漏斗分析相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dkorta.github.io"
-Repository = "https://github.com/dkorta/costgov_jd244"
-Issues = "https://github.com/dkorta/costgov_jd244/issues"
+Repository = "https://github.com/dkorta/retrieval_funnel_length_profile"
+Issues = "https://github.com/dkorta/retrieval_funnel_length_profile/issues"
 
 [project.scripts]
-costgov_jd244 = "costgov_jd244:main"
+retrieval_funnel_length_profile = "retrieval_funnel_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["costgov_jd244"]
+py-modules = ["retrieval_funnel_length_profile"]
